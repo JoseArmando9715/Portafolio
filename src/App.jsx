@@ -34,8 +34,8 @@ function App() {
             </h2>
 
             <p className="hero-description">
-              Desarrollo aplicaciones web, APIs y soluciones orientadas
-              a procesos reales, combinando frontend, backend y bases de datos.
+              Desarrollo aplicaciones web, APIs y soluciones orientadas a
+              procesos reales, combinando frontend, backend y bases de datos.
             </p>
 
             <div className="hero-actions">
@@ -44,9 +44,9 @@ function App() {
               </a>
 
               <a
-                href="/cv/JoseArmandoRamirez_CV.pdf"
+                href={`${import.meta.env.BASE_URL}cv/JoseArmandoRamirez_CV.pdf`}
                 className="btn btn-secondary"
-                download
+                download="JoseArmandoRamirez_CV.pdf"
               >
                 Descargar CV
               </a>
